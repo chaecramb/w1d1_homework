@@ -42,7 +42,7 @@ String
   * `"Ronnie ".+("Pickering")`
   * `"Ronnie ".send(:+, "Pickering")`
 
-The + operator is used as a string method in this case, so thanks to Ruby syntactical sugar we can write it as:
+The + operator is used as a string method in the first example, so thanks to Ruby syntactical sugar we can write it as:
 
 "Ronnie " + "Pickering"
 
