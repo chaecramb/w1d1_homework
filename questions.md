@@ -1,4 +1,4 @@
-1. Assign to the value `6` to the variable `number_six`
+1. Assign the value `6` to the variable `number_six`
 
 number_six = 6
 
@@ -18,6 +18,7 @@ String
 "Troy and Abed in the Morning"
 
   * `10 * 3`
+
 30
 
   * `10 ** 3`
@@ -34,7 +35,7 @@ String
 
   * `0.7 + 0.1`
 
-0.8
+0.7999999999999999
 
 4. Can you explain why the expressions all give the same result?
   * `"Ronnie " + "Pickering"`
@@ -45,11 +46,11 @@ String
 
 "Ronnie " + "Pickering"
 
-but it can also be used with the normal method synatx as in the second example:
+but it can also be used with the normal method syntax as in the second example:
 
 "Ronnie ".+("Pickering")
 
-In the third example, the send method is passed the + method as a symbol, and a string. Send invokes the method and passes it the specified arguement ("Pickering"). So this is effectively the same as the other two approaches above. 
+In the third example, the send method is passed the + method as a symbol, and a string as the second argument. Send invokes whatever method it is passed, and passes it the specified arguement (in this case "Pickering"). So this is effectively the same as the other two approaches above. 
 
 
 5. Please fix the following buggy expressions:
